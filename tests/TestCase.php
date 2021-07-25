@@ -5,16 +5,16 @@ declare(strict_types=1);
 /*
  * This file is part of Recaptcha.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Recaptcha\Tests;
+namespace Konceiver\Recaptcha\Tests;
 
-use KodeKeep\Recaptcha\Facades\RecaptchaFacade;
-use KodeKeep\Recaptcha\Providers\RecaptchaServiceProvider;
+use Konceiver\Recaptcha\Facades\RecaptchaFacade;
+use Konceiver\Recaptcha\Providers\RecaptchaServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
